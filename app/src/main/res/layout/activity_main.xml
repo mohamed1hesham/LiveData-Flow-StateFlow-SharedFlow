@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_livedata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Hello World!"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_livedata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_livedata"
+        android:layout_centerHorizontal="true"
+        android:text="Live Data"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_stateflow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_livedata"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Hello World!"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_stateflow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_stateflow"
+        android:layout_centerHorizontal="true"
+        android:text="State Flow"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tv_flow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_stateflow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Hello World!"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_flow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_flow"
+        android:layout_centerHorizontal="true"
+        android:text="Flow"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_shared"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_flow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Hello World!"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_sharedflow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_shared"
+        android:layout_centerHorizontal="true"
+        android:text="SharedFlow"
+        android:textSize="20sp" />
+
+</RelativeLayout>
